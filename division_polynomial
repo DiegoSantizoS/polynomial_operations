@@ -1,0 +1,9 @@
+function division = division_polynomial(p, q)
+    % Division polynomial
+    [p_norm, q_norm] = normalize_polynomials(p, q); % use the function normalize_polynomials
+    [cociente, residuo] = deconv(p_norm, q_norm); % divide the polynomials
+    disp('Cociente:');
+    disp(cociente);
+    disp('Residuo:');
+    disp(residuo);
+end
