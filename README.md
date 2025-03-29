@@ -1,1 +1,2 @@
-# polynomial_operations
+# DIEGO FERNANDO SANTIZO SAMAYOA
+# 0901-22-15950
